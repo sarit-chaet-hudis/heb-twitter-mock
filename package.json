@@ -1,0 +1,23 @@
+{
+  "name": "heb-twitter-mock",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000e\u0000b\u0000-\u0000t\u0000w\u0000i\u0000t\u0000t\u0000e\u0000r\u0000-\u0000m\u0000o\u0000c\u0000k\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarit-chaet-hudis/heb-twitter-mock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarit-chaet-hudis/heb-twitter-mock/issues"
+  },
+  "homepage": "https://github.com/sarit-chaet-hudis/heb-twitter-mock#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
