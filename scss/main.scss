@@ -1,13 +1,66 @@
-@import 'variables';
+@import "variables";
+@import "typography";
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: $light-grey;
+  height: 100vh;
+  padding: $section-padding;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    min-width: 200px;
+  background-color: pink;
+  //   justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  width: 20%;
+  padding: $section-padding;
+
+  a {
+    @extend %btn-shared;
+  }
+}
+
+.feed {
+    width: 80%;
+    background-color: purple;
+    padding: $section-padding;
+
+}
+
+.side-bar {
+    padding: $section-padding;
+
+}
+
+%btn-shared {
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  border: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+li {
+    list-style-type: none;
 }
