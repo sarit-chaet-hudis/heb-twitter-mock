@@ -1,5 +1,6 @@
 @import "variables";
 @import "typography";
+@import "tweets";
 
 * {
   padding: 0;
@@ -12,11 +13,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 22px;
 }
 
 main {
@@ -42,15 +38,12 @@ nav {
 }
 
 .feed {
-    width: 80%;
-    background-color: purple;
-    padding: $section-padding;
-
+  width: 80%;
+  padding: $section-padding;
 }
 
 .side-bar {
-    padding: $section-padding;
-
+  padding: $section-padding;
 }
 
 %btn-shared {
@@ -62,5 +55,5 @@ nav {
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }

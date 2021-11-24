@@ -1,0 +1,13 @@
+.tweet {
+    border-bottom: 1px solid $dark-grey;
+}
+
+.social-btns {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+
+  > div {
+    display: inline-block;
+  }
+}

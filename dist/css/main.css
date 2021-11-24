@@ -1,3 +1,15 @@
+h1 {
+  font-weight: 700;
+  font-size: 22px; }
+
+.social-btns {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between; }
+  .social-btns > div {
+    display: inline-block; }
+
 * {
   padding: 0;
   margin: 0;
@@ -8,10 +20,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 100vh; }
-
-h1 {
-  font-weight: 700;
-  font-size: 22px; }
 
 main {
   display: flex;
@@ -30,7 +38,6 @@ nav {
 
 .feed {
   width: 80%;
-  background-color: purple;
   padding: 20px; }
 
 .side-bar {
