@@ -34,12 +34,14 @@ nav {
 
   a {
     @extend %btn-shared;
+    line-height: 2;
   }
 }
 
 .feed {
   width: 80%;
   padding: $section-padding;
+  line-height: 1.6;
 }
 
 .side-bar {
